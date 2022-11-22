@@ -62,6 +62,7 @@ Type '-help' to show commands you can use
             ),
           );
           if (finalDir == null) break;
+          prevDir = dir;
           dir = finalDir;
         }
         text = "\nDirectory: ${dir.path}\n";
